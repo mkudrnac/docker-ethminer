@@ -10,7 +10,7 @@ RUN apt-get update \
      cmake \
      build-essential
 
-RUN git clone https://github.com/davilizh/ethminer \
+RUN git clone https://github.com/mkudrnac/ethminer \
     && cd ethminer \
     && mkdir build \
     && cd build \
